@@ -53,6 +53,8 @@
   font-size: 14px;
   color: #757575;
   margin-right: 40px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .telephone {
@@ -61,6 +63,8 @@
   font-weight: 500;
   font-size: 14px;
   color: #757575;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .section-header li + li {
@@ -71,12 +75,20 @@
   display: flex;
 }
 
+.main-navigation a:hover {
+  color: #2196f3;
+}
+
 .contact-section {
   display: flex;
   font-size: 14px;
   margin-top: 32px;
   margin-bottom: 32px;
   padding-inline-start: 0;
+}
+
+.contact-section li {
+  display: flex;
 }
 
 .logo {
@@ -299,10 +311,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--link-color);
-}
-
 footer {
   background-color: var(--alternative-color);
 }
@@ -342,6 +350,10 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   display: flex;
   margin-top: 12px;
+}
+
+.footer-section:hover {
+  color: #2196f3;
 }
 
 button li {
