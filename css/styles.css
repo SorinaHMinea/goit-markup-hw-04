@@ -322,7 +322,6 @@ footer {
   line-height: 31px;
   letter-spacing: 0.03em;
   margin-left: 30px;
-
   display: flex;
   padding-top: 60px;
   padding-bottom: 28px;
@@ -440,6 +439,7 @@ use:hover {
 .svg-section:hover {
   color: #2196f3;
   border: 1px solid #2196f3;
+  cursor: pointer;
 }
 
 .header-svg {
